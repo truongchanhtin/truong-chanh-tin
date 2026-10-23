@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trương Chánh Tín — Contact</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">Trương Chánh Tín</a>
+    <ul class="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Contact</div>
+    <h1 style="font-size:clamp(28px,4vw,42px);">Liên hệ với tôi</h1>
+    <p class="tagline">Sẵn sàng trao đổi về cơ hội hợp tác, tư vấn SEO/GEO hoặc chiến dịch quảng cáo.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="contact-layout">
+
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:truongchanhtin21@gmail.com">truongchanhtin21@gmail.com</a></li>
+        <li><span>Điện thoại</span><a href="tel:0339490968">0339 490 968</a></li>
+        <li><span>Facebook</span><a href="https://www.facebook.com/truong.chanh.tin.2024" target="_blank" rel="noopener">facebook.com/truong.chanh.tin.2024</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/tintruong_04/" target="_blank" rel="noopener">@tintruong_04</a></li>
+      </ul>
+
+      <form class="contact-form" data-endpoint="YOUR_FORMSPREE_URL" data-mailto="truongchanhtin21@gmail.com">
+        <h3>Gửi tin nhắn cho tôi</h3>
+
+        <div class="form-row two">
+          <div>
+            <label for="name">Họ và tên <em>*</em></label>
+            <input id="name" name="name" type="text" placeholder="Nguyễn Văn A" required autocomplete="name">
+          </div>
+          <div>
+            <label for="email">Email <em>*</em></label>
+            <input id="email" name="email" type="email" placeholder="ban@email.com" required autocomplete="email">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Chủ đề</label>
+          <select id="subject" name="subject">
+            <option>Hợp tác dự án</option>
+            <option>Tư vấn SEO / GEO</option>
+            <option>Chiến dịch quảng cáo</option>
+            <option>Cơ hội việc làm</option>
+            <option>Câu hỏi khác</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Nội dung <em>*</em></label>
+          <textarea id="message" name="message" placeholder="Bạn muốn trao đổi điều gì?" required minlength="10"></textarea>
+        </div>
+
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="submit" class="btn btn-solid">Gửi tin nhắn</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="foot-note">© 2026 Trương Chánh Tín.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
